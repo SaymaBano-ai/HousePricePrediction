@@ -11,8 +11,8 @@ import joblib
 import os
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE, "..", "Model", "best_house_price_model.pkl")
-META_PATH = os.path.join(BASE, "..", "Model", "model_metadata.pkl")
+MODEL_PATH = os.path.join(BASE,"best_house_price_model.pkl")
+META_PATH = os.path.join(BASE,"model_metadata.pkl")
 
 st.set_page_config(page_title="House Price Predictor", page_icon="🏠", layout="centered")
 
